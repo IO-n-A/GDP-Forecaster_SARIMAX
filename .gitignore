@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+time-s/
+time-s*/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Ruff / Linters
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project dev
+analysis/
+data/
+!data/.gitkeep
+figures/
+!figures/.gitkeep
+
+# Config files
+/config
+
+# Additional project ignores
+.env
+# Generated figures (only images; keep any non-image files such as metrics.csv)
+figures/**/*.png
+figures/**/*.jpg
+# Helper logs
+helpers/*.txt
