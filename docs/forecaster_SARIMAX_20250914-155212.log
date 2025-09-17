@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/io-n_a-ssd/code/GDP-ForecasterSARIMAX/forecaster_SARIMAX.py", line 75, in <module>
+    from ruamel.yaml import YAML
+ModuleNotFoundError: No module named 'ruamel'
