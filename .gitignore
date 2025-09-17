@@ -81,3 +81,8 @@ figures/**/*.png
 figures/**/*.jpg
 # Helper logs
 helpers/*.txt
+
+# Generated documentation and logs
+docs/
+figures_test/
+log/
