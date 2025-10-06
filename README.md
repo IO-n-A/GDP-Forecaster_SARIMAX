@@ -119,7 +119,7 @@ GDP-ForecasterSARIMAX/
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/IO-n-A/GDP-Forecaster_SARIMAX.git
 cd GDP-ForecasterSARIMAX
 
 # Optional virtual environment (recommended)
