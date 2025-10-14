@@ -14,8 +14,13 @@ dist/
 downloads/
 eggs/
 .eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
-*.egg
 .installed.cfg
 
 # Virtual environments
@@ -24,8 +29,7 @@ venv/
 ENV/
 env/
 time-s/
-time-s*/
-# Installer logs
+time-s*/# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
@@ -86,3 +90,92 @@ helpers/*.txt
 docs/
 figures_test/
 log/
+
+# Sensitive configuration files
+config/master_keys.yaml
+config/api_keys.env
+config/*API_KEY*
+config/*key*
+config/*secret*
+
+# Logs and debug files
+*.log
+logs/
+debug.log
+error.log
+
+# Data directories (input/output data)
+data/
+figures/
+docs/ARCHIVE/
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.tmp/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging

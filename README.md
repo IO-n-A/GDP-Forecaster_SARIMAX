@@ -1,4 +1,4 @@
-# GDP‑ForecasterSARIMAX
+# GDP‑Forecaster_SARIMAX
 
 ## Abstract
 
@@ -74,11 +74,12 @@ The legacy script-based architecture (e.g., `fetchers/`, `evaluation/`) is retai
 ## File Structure
 
 ```
-GDP-ForecasterSARIMAX/
+GDP-Forecaster_SARIMAX/
 ├── README.md                     # Comprehensive documentation
 ├── LICENSE                       # MIT license
 ├── pyproject.toml                # Project configuration and tooling
 ├── requirements.txt              # Runtime dependencies
+├── requirements-dev.txt          # Development dependencies
 ├── forecaster_SARIMAX.py         # Main CLI wrapper (backward compatible)
 ├── forecaster_SARIMAX.ipynb      # 🆕 Interactive analysis notebook
 │
@@ -96,7 +97,7 @@ GDP-ForecasterSARIMAX/
 │   └── transform_utils.py
 │
 ├── fetchers/                     # (Legacy) Data fetching scripts
-├── diagnostics/                  # (Legacy) Statistical testing scripts  
+├── diagnostics/                  # (Legacy) Statistical testing scripts
 ├── backtesting/                  # (Legacy) Backtesting framework
 ├── evaluation/                   # (Legacy) Enhanced evaluation metrics
 ├── validation/                   # (Legacy) Data validation & provenance
@@ -106,7 +107,11 @@ GDP-ForecasterSARIMAX/
 ├── figures/                      # (gitignored) Holds generated plots
 ├── docs/                         # Additional documentation
 │   └── ARCHIVE/                  # Archived legacy scripts
-└── tests/                        # Comprehensive test suite
+├── tests/                        # Comprehensive test suite
+├── .editorconfig                 # Code style configuration
+├── .gitattributes                # Git attributes
+├── .gitignore                    # Git ignore patterns
+└── .pre-commit-config.yaml       # Pre-commit hooks
 ```
 
 ## Setup and Configuration
