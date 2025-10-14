@@ -12,7 +12,6 @@ A comprehensive, production-ready SARIMAX forecasting toolkit for quarterly GDP 
 - **Production Features**: Comprehensive logging, archival protocols, and automated backtesting pipelines
 - **Open Data**: Uses only public data sources (OECD, FRED, Eurostat, NBS) with no proprietary dependencies
 
-[forecaster_SARIMAX.py](forecaster_SARIMAX.py) has been refactored into a modular package located in `gdp_forecaster_src/` for improved maintainability. The original script is now a lightweight wrapper for backward compatibility. An interactive demonstration is available in `forecaster_SARIMAX.ipynb`.
 
 ## Contents
 - [Key Features](#key-features)
